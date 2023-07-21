@@ -1,6 +1,11 @@
-### Introduction
+# Introduction
 
-1. Getting Started with AI on Jetson Nano
+### Getting Started with AI on Jetson Nano
+* Setting up the Nano
+1. Download latest version of Jetpack (4.6 as of writing)
+2. Flash microSD card using Balena Etcher
+* Image Classification
+* Image Regression
 
 <!--
 **rushil-x-gupta/rushil-x-gupta** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
