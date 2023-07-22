@@ -2,8 +2,9 @@
 
 ### Getting Started with AI on Jetson Nano
 * Setting up the Nano
-1. Download latest version of Jetpack (4.6 as of writing)
-2. Flash microSD card using Balena Etcher
+1. Download latest version of Jetpack OS (4.6 as of writing)
+2. Flash microSD card with Jetpack OS using Balena Etcher (make sure disk appears in Balena's GUI)
+3. 
 * Image Classification
 * Image Regression
 
