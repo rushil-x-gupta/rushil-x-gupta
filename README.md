@@ -1,6 +1,6 @@
 # Introduction
 
-[### Getting Started with AI on Jetson Nano](https://github.com/rushil-x-gupta/jetson-ai-tutorial)
+### [Getting Started with AI on Jetson Nano](https://github.com/rushil-x-gupta/jetson-ai-tutorial)
 
 <!--
 **rushil-x-gupta/rushil-x-gupta** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
