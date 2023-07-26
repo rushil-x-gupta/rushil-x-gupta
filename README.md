@@ -1,10 +1,26 @@
 # Introduction
 
 ### Getting Started with AI on Jetson Nano
-* Setting up the Nano
+* Setting up the Nano (IMPORTANT: use separate monitor, keyboard, mouse for Jetson Nano setup)
 1. Download latest version of Jetpack OS (4.6 as of writing)
 2. Flash microSD card with Jetpack OS using Balena Etcher (make sure disk appears in Balena's GUI)
-3. 
+3. Make sure the jumper is attached to the appropriate pins (J48 for 5V DC power supply, microUSB power supply is default)
+4. Check free memory and swap on Nano with command `free -m` (swap should read `4071`)
+    * if swap is not 4071, execute the following commands
+    * ```# Disable ZRAM:
+sudo systemctl disable nvzramconfig
+
+# Create 4GB swap file
+sudo fallocate -l 4G /mnt/4GB.swap
+sudo chmod 600 /mnt/4GB.swap
+sudo mkswap /mnt/4GB.swap
+
+# Append the following line to /etc/fstab
+sudo su
+echo "/mnt/4GB.swap swap swap defaults 0 0" >> /etc/fstab
+exit
+
+# REBOOT!```
 * Image Classification
 * Image Regression
 
