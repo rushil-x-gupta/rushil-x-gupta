@@ -2,6 +2,8 @@
 
 ### [Getting Started with AI on Jetson Nano](https://github.com/rushil-x-gupta/jetson-ai-tutorial)
 
+Corresponding with the NVIDIA Deep Learning Institute course of the same name, I written the steps and my notes.
+
 <!--
 **rushil-x-gupta/rushil-x-gupta** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
