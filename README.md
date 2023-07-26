@@ -7,20 +7,20 @@
 3. Make sure the jumper is attached to the appropriate pins (J48 for 5V DC power supply, microUSB power supply is default)
 4. Check free memory and swap on Nano with command `free -m` (swap should read `4071`)
     * if swap is not 4071, execute the following commands
-    * ```# Disable ZRAM:
+    * ```//Disable ZRAM:
 sudo systemctl disable nvzramconfig
 
-# Create 4GB swap file
+//Create 4GB swap file
 sudo fallocate -l 4G /mnt/4GB.swap
 sudo chmod 600 /mnt/4GB.swap
 sudo mkswap /mnt/4GB.swap
 
-# Append the following line to /etc/fstab
+//Append the following line to /etc/fstab
 sudo su
 echo "/mnt/4GB.swap swap swap defaults 0 0" >> /etc/fstab
 exit
 
-# REBOOT!```
+//REBOOT!```
 * Image Classification
 * Image Regression
 
