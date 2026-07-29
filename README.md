@@ -1,5 +1,11 @@
 # Introduction
 
+### [Agent Security Evaluation Harness](https://github.com/rushil-x-gupta/agent-sec-eval-harness)
+An end-to-end evaluation harness for studying early warning signals of escalatory behavior in LLM agents
+
+### [AI Security Scanner](https://github.com/rushil-x-gupta/gemini-sec-scanner)
+Measuring prompt-injection resistance in an LLM-based Python vulnerability scanner.
+
 ### [Getting Started with AI on Jetson Nano](https://github.com/rushil-x-gupta/jetson-ai-tutorial)
 
 Corresponding with the NVIDIA Deep Learning Institute course of the same name, I have written the steps and my notes.
