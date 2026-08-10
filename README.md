@@ -10,7 +10,7 @@ An end-to-end evaluation harness for studying early warning signals of escalator
 Measuring prompt-injection resistance in an LLM-based Python vulnerability scanner.
 
 ### [MLVision](https://github.com/rushil-x-gupta/Real-World-Edge-Computing/tree/main/example-application/mlvision)
-Deployed HTTP and PyTorch video inference microservices via Docker containers on AArch64 architecture.
+Deployed HTTP and PyTorch video inference microservices via Docker containers on AArch64 architecture. Implemented YOLO-based object detection.
 
 ### [Getting Started with AI on Jetson Nano](https://github.com/rushil-x-gupta/jetson-ai-tutorial)
 
