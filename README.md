@@ -1,7 +1,7 @@
 # Introduction
 
-### [GPU Inference Server](https://github.com/rushil-x-gupta/gpu-inference-server)
-IN PROGRESS: Leveraging an RTX 5080 to set up an inference server using vLLM and benchmarking LLMs to establish memory constraints and decode-phase bottlenecks by varying request batch sizes and token I/O length.
+### [LLM Inference Server](https://github.com/rushil-x-gupta/gpu-inference-server)
+IN PROGRESS: Leveraging an NVIDIA RTX 5080 to set up an LLM inference server using vLLM and benchmarking LLMs to establish memory constraints and decode-phase bottlenecks by varying request batch sizes and token I/O length.
 
 ### [Agent Security Evaluation Harness](https://github.com/rushil-x-gupta/agent-sec-eval-harness)
 An end-to-end evaluation harness for studying early warning signals of escalatory behavior in LLM agents.
